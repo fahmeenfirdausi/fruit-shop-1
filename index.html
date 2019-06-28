@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>FruitShop</title>
+    <link href="https://fonts.googleapis.com/css?family=Acme|Cinzel:400,700,900&display=swap&subset=latin-ext"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap&subset=cyrillic,latin-ext,vietnamese"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <header>
+        <img src="picture14068913878423.png" height="250" width="300" alt="logo">
+    </header>
+
+    <section id="first-sect">
+
+        <strong> I have Rs.
+            <input class="wallet" value="0">
+        </strong>
+    </section>
+
+    <section id="second-sect">
+
+        <strong> Your Total is Rs.
+            <span class="total-price">
+                0
+            </span>
+        </strong>
+    </section>
+
+
+    <section id="calculator">
+
+        <div class="image-container">
+            <div>
+                <h4>
+                    Rs. 15
+                </h4>
+
+                <figure id="img">
+                    <img src="top-red-apples-1kg_ef13dfcc-91ea-40dd-acff-6bd136323325_512x.jpg" alt="Apples">
+                    <figcaption id="figcap">Apples</figcaption>
+                </figure>
+                
+                    <button class="right-btn" onclick="addButtonApple();"> + </button>
+                    <input id="txtNumApple" type="text" value="0">
+                    <button class="left-btn" onclick="substractButtonApple();"> - </button>
+            </div>
+
+
+            <div class="main">
+
+                <h4>
+                    Rs. 10
+                </h4>
+
+                <figure id="img">
+                    <img src="mini-oranges-500x500.jpg" alt="Oranges">
+                </figure>
+                <figcaption>Oranges</figcaption>
+                <span class="btn">
+                    <button class="right-btn" onclick="addButtonOranges();"> + </button>
+                    <input id="txtNumOranges" type="text" value="0">
+                    <button class="left-btn" onclick="substractButtonOranges();"> - </button>
+                </span>
+            </div>
+
+
+            <div class="main">
+
+                <h4>
+                    Rs. 10
+                </h4>
+
+                <figure id="img">
+                    <img src="pears-500x500.jpg" alt="Pears">
+                </figure>
+                <figcaption>Pears</figcaption>
+                <span class="btn">
+                    <button class="right-btn" onclick="addButtonPears();"> + </button>
+                    <input id="txtNumPears" type="text" value="0">
+                    <button class="left-btn" onclick="substractButtonPears();"> - </button>
+                </span>
+            </div>
+
+
+            <div class="main">
+
+                <h4>
+                    Rs. 30
+                </h4>
+
+                <figure id="img">
+                    <img src="fresh-mango-500x500.jpg" alt="Mango">
+                </figure>
+                <figcaption>Mango</figcaption>
+                <span class="btn">
+                    <button class="right-btn" onclick="addButtonMango();"> + </button>
+                    <input id="txtNumMango" type="text" value="0">
+                    <button class="left-btn" onclick="substractButtonMango();"> - </button>
+                </span>
+            </div>
+
+
+            <div class="main">
+
+                <h4>
+                    Rs. 20
+                </h4>
+
+                <figure id="img">
+                    <img src="fresh-kiwi-fruit-500x500.jpg" alt="Kiwi">
+                </figure>
+                <figcaption>Kiwi</figcaption>
+                <span class="btn">
+                    <button class="right-btn" onclick="addButtonKiwi();"> + </button>
+                    <input id="txtNumKiwi" type="text" value="0">
+                    <button class="left-btn" onclick="substractButtonKiwi();"> - </button>
+                </span>
+            </div>
+
+
+            <div class="main">
+
+                <h4>
+                    Rs. 5
+                </h4>
+
+                <figure id="img">
+                    <img src="41JvAoqeMfL.jpg" alt="Banana">
+                </figure>
+                <figcaption>Banana</figcaption>
+                <span class="btn">
+                    <button class="right-btn" onclick="addButtonBanana();"> + </button>
+                    <input id="txtNumBanana" type="text" value="0">
+                    <button class="left-btn" onclick="substractButtonBanana();"> - </button>
+                </span>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+
+    </section>
+</body>
+
+</html>
